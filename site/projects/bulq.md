@@ -1,8 +1,8 @@
 ---
 title: BULQ.com eCommerce
 date: 2018-09-30
-featured_image: /images/blog/post-1.jpg
-image_caption: Photo by Dylan Gillis on Unsplash
+featured_image: /images/projects/bulq-cases-wireframes.png
+image_caption: Annotated wireframe showing a new inventory type
 excerpt: Wholesale purchasing for resellers.
 tags:
     - project
