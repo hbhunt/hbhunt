@@ -694,9 +694,22 @@ h5 {
   }
 }
 
+ul, ol {
+  list-style-position: inside;
+}
+
+ul ul, ul ol, ol ul, ol ol {
+  margin-left: 1.5rem;
+}
+
 .post ul, .post ol {
   margin-top: 1rem;
   margin-bottom: 1rem;
+}
+
+.post ul ul, .post ul ol, .post ol ul, .post ol ol {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .post ul:not(.list-none) li {

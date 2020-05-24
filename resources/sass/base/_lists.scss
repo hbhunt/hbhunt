@@ -1,10 +1,20 @@
 
 //==========  Lists ==========//
 
+ul, ol {
+  @apply list-inside;
+  ul, ol {
+    @apply ml-6;
+  }
+}
+
 // lists inside blog posts
 .post {
   ul, ol {
     @apply my-4;
+    ul, ol{
+      @apply my-0;
+    }
   }
 
   ul:not(.list-none) li {

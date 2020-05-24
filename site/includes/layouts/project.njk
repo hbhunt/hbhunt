@@ -13,40 +13,22 @@ layout: default
                 <h1 class="page-title text-3xl md:text-center md:text-5xl lg:text-6xl">{{ title }}</h1>
             </header>
 
-            <div class="text-sm md:text-base text-gray-600 flex justify-center">
+            {# featured post image #}
+            {% if featured_image %}
 
-                <p class="author">By {{ site.author.name }}</p>
+                <figure class="mt-10 md:mt-20">
 
-                <p class="px-2">—</p>
+                    <img data-lazy="{{ featured_image }}" alt="{{ image_caption }}">
 
-                <time datetime="{{ date }}">
-                    {{ date | dateDisplay }}
-                </time>
+                    {% if image_caption %}
 
-                {% if tags %}
+                        <figcaption class="text-center text-sm italic text-gray-600 mt-4">{{ image_caption }}</figcaption>
 
-                    {# this will create a comma for multiple category links #}
-                    {% set comma = joiner() %}
+                    {% endif %}
 
-                    <p class="px-2">—</p>
+                </figure>
 
-                    <p class="category">Posted in
-
-                        {% for item in tags %}
-
-                            {%- if item != "blog" -%}
-
-                                <a href="/category/{{ item }}">{{ comma() }} {{ item | capitalize }}</a>
-
-                            {%- endif -%}
-
-                        {% endfor %}
-
-                    </p>
-
-                {% endif %}
-
-            </div>
+            {% endif %}
 
         </div>
 
