@@ -40,6 +40,12 @@ module.exports = eleventyConfig => {
         return blogs.reverse()
 
     })
+    eleventyConfig.addCollection('project', collection => {
+
+        const project = collection.getFilteredByTag('project')
+        return project
+
+    })
 
     // Layout aliases
     eleventyConfig.addLayoutAlias('default', 'layouts/default.njk')
