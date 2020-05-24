@@ -10,6 +10,22 @@ tags:
     - cheat sheet
 ---
 
+# Heading 1
+paragraph
+
+## Heading 2
+paragraph
+
+### Heading 3
+paragraph
+
+#### Heading 4
+paragraph
+
+##### Heading 5
+
+paragraph
+
 ## Interview Limitations
 
 ##### [Functional Fixedness](https://en.wikipedia.org/wiki/Functional_fixedness) — people’s thinking is limited  to existing structures  

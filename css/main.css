@@ -648,12 +648,21 @@ h1, h2, h3, h4, h5 {
   color: rgba(33, 24, 60, var(--text-opacity));
 }
 
+h3, h4, h5 {
+  margin-bottom: 0.25rem;
+}
+
 h2 {
   font-size: 1.875rem;
+  font-weight: 900;
 }
 
 h3 {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
+}
+
+h5 {
+  margin-top: 1rem;
 }
 
 .page-title {
@@ -688,10 +697,6 @@ h3 {
 .post ul, .post ol {
   margin-top: 1rem;
   margin-bottom: 1rem;
-}
-
-.post ul li, .post ol li {
-  list-style-position: inside;
 }
 
 .post ul:not(.list-none) li {

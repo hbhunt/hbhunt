@@ -5,9 +5,6 @@
 .post {
   ul, ol {
     @apply my-4;
-    li{
-      @apply list-inside;
-    }
   }
 
   ul:not(.list-none) li {

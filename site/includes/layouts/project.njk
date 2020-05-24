@@ -85,6 +85,24 @@ layout: default
             </div>
         </div>
 
+        <div class="mt-16 md:px-16">
+          {% if team_description %}
+            <h3>Team</h3>
+            <p>{{ team_description }}</p>
+
+            {% if team_description %}
+            <ul class="list-disc mt-4">
+
+              {% for role in team %}
+                <li>{{ role }}</li>
+              {% endfor %}
+
+            </ul>
+            {%- endif -%}
+
+          {%- endif -%}
+        </div>
+
     </article>
 
 </main>
