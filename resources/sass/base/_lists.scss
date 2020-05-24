@@ -1,0 +1,20 @@
+
+//==========  Lists ==========//
+
+// lists inside blog posts
+.post {
+  ul, ol {
+    @apply my-4;
+    li{
+      @apply list-inside;
+    }
+  }
+
+  ul:not(.list-none) li {
+    @apply list-disc;
+  }
+
+  ol li {
+    @apply list-decimal;
+  }
+}
