@@ -43,7 +43,7 @@ module.exports = eleventyConfig => {
     eleventyConfig.addCollection('project', collection => {
 
         const project = collection.getFilteredByTag('project')
-        return project
+        return project.reverse()
 
     })
 

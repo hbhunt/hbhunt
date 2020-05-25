@@ -1,19 +1,19 @@
 ---
-title: BULQ.com eCommerce site
-date: 2018-09-30
-featured_image: /images/projects/bulq-mbp-com.png
-image_caption: BULQ.com
+title: BLINQ.com eCommerce
+date: 2020-05-24
+featured_image: /images/projects/MBP-BLINQ.png
+image_caption: BLINQ.com
 excerpt: Wholesale purchasing for resellers.
 tags:
     - project
     - ux
 ---
 
-BULQ has supplied **thousands** of resellers with **millions** of dollars worth of inventory to power their businesses.
+BLINQ lets shoppers save big on excess and returned inventory.
 
-### Goal & Context
+### Goals & Context
 
-Small business owners wanted a way to source returned and excess retail goods, and Optoro needed to liquidate these same goods. A sales team was offering inventory to medium and large buyers, but scaling this team to work with small buyers was cost-prohibitive. The design and product team was asked to create an ecommerce site where small business owners could directly purchase inventory.
+As the lead designer on BLINQ.com, I was responsible a variety of projects to improve the customer experience and add new features to the site.
 
 ### Results
 
