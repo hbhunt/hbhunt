@@ -9,10 +9,6 @@
             "url": "/projects/"
         },
         {
-            "label": "About",
-            "url": "/about/"
-        },
-        {
             "label": "Blog",
             "url": "/blog/"
         }

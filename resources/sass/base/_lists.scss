@@ -11,7 +11,7 @@ ul, ol {
 // lists inside blog posts
 .post {
   ul, ol {
-    @apply my-4;
+    @apply mb-4;
     ul, ol{
       @apply my-0;
     }
