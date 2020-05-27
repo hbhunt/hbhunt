@@ -6,6 +6,7 @@ image_caption: BLINQ.com
 excerpt: Wholesale purchasing for resellers.
 tags:
     - project
+    - branding
     - ux
 ---
 
@@ -17,55 +18,62 @@ As the lead designer on BLINQ.com, I was responsible a variety of projects to im
 
 ### Results
 
-During it's first year, BULQ.com sold millions of dollars worth of inventory to thousands of small buyers via bulq.com and the bulq mobile app. Since then, BULQ has served over 1.2 million customers and processed goods worth more than $500M retail.
+results
 
 ## UX Design Process
 
 ### Concept
-I worked closely with a branding consultant to interview stakeholders, survey the competitive landscape, and generate ideas for how we could bring our direct-sales business to a wider audience.
+Section
 
+Brand DNA
 <figure class="p-6 rounded-lg mt-10 mb-8 md:mt-8 shadow">
-  <img data-lazy="/images/projects/bulq-interview-summary.png" alt="User research summary + findings">
-    <figcaption class="text-center text-sm italic text-gray-600 mt-4">User research summary + findings</figcaption>
+  <img data-lazy="/images/projects/blinq_homepage_branding.png" alt="">
+    <figcaption class="text-center text-sm italic text-gray-600 mt-4"></figcaption>
+</figure>
+
+Homepage Features
+<figure class="p-6 rounded-lg mt-10 mb-8 md:mt-8 shadow">
+  <img data-lazy="/images/projects/blinq_homepage_features.png" alt="">
+    <figcaption class="text-center text-sm italic text-gray-600 mt-4"></figcaption>
+</figure>
+
+Responsive Homepage
+<figure class="p-6 rounded-lg mt-10 mb-8 md:mt-8 shadow">
+  <img data-lazy="/images/projects/blinq-homepage-mobile.png" alt="">
+    <figcaption class="text-center text-sm italic text-gray-600 mt-4"></figcaption>
 </figure>
 
 ### Empathy
-I organized and lead a series of interviews with experts and existing customers to validate assumptions and discover insights. This input helped us refine our concept and decide on a set of values that would form the pillars of our brand. I lead the creation of personas that crystallized our findings and represented our core buyers.
+Section
 
+Responsive Checkout
 <figure class="p-6 rounded-lg mt-10 mb-8 md:mt-8 shadow">
-  <img data-lazy="/images/projects/bulq-persona.png" alt="Personas help the team understand customers.">
-    <figcaption class="text-center text-sm italic text-gray-600 mt-4">Personas help the team understand customers.</figcaption>
+  <img data-lazy="/images/projects/blinq-checkout-remove-billing-address_4-up.png" alt="">
+    <figcaption class="text-center text-sm italic text-gray-600 mt-4"></figcaption>
 </figure>
 
+Navigation Rework
 <figure class="p-6 rounded-lg mt-10 mb-8 md:mt-8 shadow">
-  <img data-lazy="/images/projects/bulq-customer-timeline.png" alt="Example customer day in the life">
-    <figcaption class="text-center text-sm italic text-gray-600 mt-4">Example customer day in the life</figcaption>
+  <img data-lazy="/images/projects/blinq-nav-wireframe.png" alt="">
+    <figcaption class="text-center text-sm italic text-gray-600 mt-4"></figcaption>
 </figure>  
 
 ### Ideation
-Working from sketches and creating storyboards, user flows, and a comprehensive set of wireframes, I lead a cross-functional team in exploring our concept in more depth and refining individual flows, screens, and layouts.
+Section
 
-<figure class="p-6 rounded-lg mt-10 mb-8 md:mt-8 shadow">
-  <img data-lazy="/images/projects/bulq-wireframe.png" alt="Annotated medium-fidelity wireframe for search and browse">
-    <figcaption class="text-center text-sm italic text-gray-600 mt-4">Annotated medium-fidelity wireframe for search and browse</figcaption>
-</figure>  
 
 ### Prototype
-With a critical mass of wireframes, I used InVision to create clickable prototypes to simulate the site. Working with a visual designer, I created high-fidelity wireframes which we used to build a high-fidelity prototype.
+Section
 
 ### Testing
-By collecting feedback from customers with our prototypes, we were able to make important content and layout changes at low cost and without code changes.
+Section
 
-<figure class="p-6 rounded-lg mt-10 mb-8 md:mt-8 shadow">
-  <img data-lazy="/images/projects/bulq-cases-wireframes.png" alt="Annotated high-fidelity wireframe showing a new inventory type">
-    <figcaption class="text-center text-sm italic text-gray-600 mt-4">Annotated high-fidelity wireframe showing a new inventory type</figcaption>
-</figure>  
 
 ### Product Roadmap
-Since launch, the team has added several features following a similar process. Features like new inventory notifications; smaller, lower-cost lot sizes; and new ways to search and browse through inventory have been successful for our customers and our business.
+Section
 
 ## Team
-As BULQ has grown from concept into a full-fledged business, the team had grown in lockstep. It's been my privilege to have worked with everyone involved in BULQ.com, the BULQ iOS app, ecommerce operations, and BULQ marketing. A few of the roles I worked most closely with are:
+Section
 
 - UX Lead (Me)
 - Product Manager
