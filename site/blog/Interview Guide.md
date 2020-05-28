@@ -5,37 +5,8 @@ date: 2018-09-30
 excerpt: This is an excerpt
 tags:
     - blog
-    - design
     - research
-    - cheat sheet
 ---
-
-# Heading 1
-paragraph
-
-* list
-* list
-* list
-
-paragraph two
-
-## Heading 2
-paragraph
-
-1. one
-2. two
-3. three
-
-another paragraph
-
-### Heading 3
-paragraph
-
-#### Heading 4
-paragraph
-
-##### Heading 5
-paragraph
 
 ## Interview Limitations
 
@@ -69,31 +40,31 @@ paragraph
 
 ## Interview Outline
 
-### Start with high level questions and small talk about others
+##### Start with high level questions and small talk about others
 
 * What does your work organization do?
 * What kinds of people work there?
 * How does your family start the day?
 
-### Then move to easy, factual questions
+##### Then move to easy, factual questions
 
 * Who usually gets dinner ready?
 * Can you recall a restaurant meal with your family? Who was there?
 
-### Task, roles and details of tasks
+##### Task, roles and details of tasks
 
 * What do you do first?
 * What do you do when the deadline is soon?
 * Does anything slow you down?
 * What do you do when you have this trouble?
 
-### Walk through tasks “yesterday” or most recently
+##### Walk through tasks “yesterday” or most recently
 
 * Where were you? What were you working on?
 * Who else was there?
 * What happened next?
 
-### Follow-Up
+##### Follow-Up
 
 * Can you describe how you select music in your car?
 * Can you tell me about a time when you did that?
@@ -103,13 +74,13 @@ paragraph
 * What does “system” mean here?
 * I am hearing you say…
 
-### Ending the Interview
+##### Ending the Interview
 
 * Do you have any suggestions for us, or last thoughts?
 * Yes, everything we have discussed is confidential. We won’t reveal your identity to anyone.
 * Thank you for talking with me. Here’s my card if you want to get in touch.
 
-### Avoid
+##### Avoid
 
 * Avoid describing details of your plan or design
 * Avoid asking about features; ask about the underlying need that would make a feature useful

@@ -5,7 +5,6 @@ date: 2018-09-30
 excerpt: This is an excerpt
 tags:
     - blog
-    - design
     - research
 ---
 
