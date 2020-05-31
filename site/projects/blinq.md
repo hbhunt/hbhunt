@@ -94,7 +94,7 @@ Working with a product manager, a developer, and a third-party provider (our nav
 
 <figure class="p-6 rounded-lg mt-10 mb-8 md:mt-8 shadow">
   <a href="/images/projects/blinq_nav_production.png">
-    <img data-lazy="/images/projects/blinq_nav_production.png" alt="Image showing menu in production.">
+    <img data-lazy="/images/projects/blinq_nav_production.png" alt="Updated menu in production.">
     <figcaption class="text-center text-sm italic text-gray-600 mt-4">Image showing menu in production.</figcaption>
   </a>
 </figure>
