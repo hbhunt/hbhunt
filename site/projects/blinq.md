@@ -3,7 +3,7 @@ title: BLINQ.com eCommerce
 date: 2020-05-24
 featured_image: /images/projects/MBP-BLINQ.png
 image_caption: BLINQ.com
-excerpt: Wholesale purchasing for resellers.
+excerpt: Wholesale purchasing for consumers.
 tags:
     - project
     - branding

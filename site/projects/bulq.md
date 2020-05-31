@@ -3,7 +3,7 @@ title: BULQ.com eCommerce
 date: 2020-05-25
 featured_image: /images/projects/bulq-mbp-com.png
 image_caption: BULQ.com
-excerpt: Wholesale purchasing for resellers.
+excerpt: Wholesale purchasing for resellers. 2015–2016
 tags:
     - project
     - ux
