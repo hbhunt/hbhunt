@@ -617,6 +617,14 @@ video {
   padding-right: 1.5rem;
 }
 
+@media (min-width: 768px) {
+  .content {
+    max-width: 48rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 a {
   --text-opacity: 1;
   color: #21183c;

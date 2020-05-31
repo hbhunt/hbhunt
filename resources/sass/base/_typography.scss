@@ -6,6 +6,10 @@ html { font-family: 'Inter', sans-serif; }
   html { font-family: 'Inter var', sans-serif; }
 }
 
+@mixin first_paragraph {
+  @apply border-b border-gray-200 text-2xl pb-10 mb-10 font-light leading-snug text-gray-600;
+}
+
 // headings
 h1, h2, h3, h4, h5 {
     @apply font-bold leading-tight mt-0 mb-6 text-purple-900;
@@ -39,14 +43,14 @@ h5 {
 	p {
 		@apply mb-8;
 
-        // intro paragraph
+    // intro paragraph
 		&:first-child {
-			@apply border-b border-gray-200 text-2xl pb-10 mb-10 font-light leading-snug text-gray-600;
+			// @apply border-b border-gray-200 text-2xl pb-10 mb-10 font-light leading-snug text-gray-600;
+      @include first_paragraph;
 
 			@screen md {
-                @apply text-3xl;
-            }
+          @apply text-3xl;
+      }
 		}
   }
-
 }

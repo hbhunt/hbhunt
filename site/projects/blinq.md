@@ -12,18 +12,15 @@ tags:
 
 BLINQ lets shoppers save big on excess and returned inventory.
 
-### Goals & Context
+### Role
 
 As the lead designer on BLINQ.com, I was responsible a variety of projects to improve the customer experience and add new features to the site.
 
-### Results
+## Homepage Redesign
 
-results
-
-## UX Design Process
-
-### Concept
-Section
+### Goals
+* The existing BLINQ homepage featured a hero banner and a series of carousels with merchandise organized by category. There was no real-estate 
+* Goal two
 
 Brand DNA
 <figure class="p-6 rounded-lg mt-10 mb-8 md:mt-8 shadow">
