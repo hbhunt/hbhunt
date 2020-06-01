@@ -9,7 +9,7 @@ tags:
     - ux
 ---
 
-BULQ has supplied **thousands** of resellers with **millions** of dollars worth of inventory to power their businesses.
+BULQ has supplied <span class="font-extrabold">thousands</span> of resellers with <span class="font-extrabold">millions</span> of dollars worth of inventory to power their businesses.
 
 ### Goal & Context
 
@@ -40,13 +40,6 @@ I organized and lead a series of interviews with experts and existing customers 
     <figcaption class="text-center text-sm italic text-gray-600 mt-4">Personas help the team understand customers.</figcaption>
   </a>
 </figure>
-
-<figure class="p-6 rounded-lg mt-10 mb-8 md:mt-8 shadow">
-  <a href="/images/projects/bulq-customer-timeline.png">
-    <img data-lazy="/images/projects/bulq-customer-timeline.png" alt="Example customer day in the life">
-    <figcaption class="text-center text-sm italic text-gray-600 mt-4">Example customer day in the life</figcaption>
-  </a>
-</figure>  
 
 ### Ideation
 Working from sketches and creating storyboards, user flows, and a comprehensive set of wireframes, I lead a cross-functional team in exploring our concept in more depth and refining individual flows, screens, and layouts.
