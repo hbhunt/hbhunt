@@ -21,7 +21,8 @@ The BULQ mobile app has helped thousands of users purchase millions worth of ret
 
 ## UX Design Process
 
-**Discovery Research**  
+**Discovery Research**
+
 Before rushing into selecting features, we spent time with customers of the existing website to identify buying patterns, habits, browsing behaviors, and to understand how our customers approach buying for their businesses.
 
 <figure class="p-6 rounded-lg mt-10 mb-8 md:mt-8 shadow">
@@ -32,9 +33,11 @@ Before rushing into selecting features, we spent time with customers of the exis
 </figure>  
 
 **Definition**  
+
 We identified several problems our customers face as they shop on the site. Thanks to research and analytics, we were able to focus on helping customers save time sorting through inventory to drill down into just the kinds they want and helping customers know when new inventory they might like is listed on the platform.
 
 **Ideation**  
+
 Knowing the problems we were trying to solve, I worked with tech and product team members to brainstorm solutions with an emphasis on the unique capabilities provided by iOS devices. Working closely with a product manager, I grouped features and solutions into themes and sketched sample screens to show how the app might come together. This process helped us propose the scope for an MVP app.
 
 <figure class="p-6 rounded-lg mt-10 mb-8 md:mt-8 shadow">
@@ -45,6 +48,7 @@ Knowing the problems we were trying to solve, I worked with tech and product tea
 </figure>  
 
 **Prototype**  
+
 As ideation continued, I created a clickable prototype of first wireframes and later app comps. These prorotypes allowed us to try out ideas quickly and cheaply directly on iPhones.
 
 <figure class="p-6 rounded-lg mt-10 mb-8 md:mt-8 shadow">
@@ -55,6 +59,7 @@ As ideation continued, I created a clickable prototype of first wireframes and l
 </figure>
 
 **Testing**  
+
 With prototypes in hand, we were able to conduct usability tests and assess some of the assumptions we had made earlier. We refined several features and expanded the first-launch and onboarding experience based on feedback from users.
 
 <figure class="p-6 rounded-lg mt-10 mb-8 md:mt-8 shadow">
@@ -65,6 +70,7 @@ With prototypes in hand, we were able to conduct usability tests and assess some
 </figure>
 
 **Product Roadmap**  
+
 Since launch, I have repeated an abbreviated version of this process to identify issues, brainstorm solutions, and work with the team to incorporate them into the app. These features include new ways to preview the contents of a lot in the app and new ways to search, browse, and filter inventory.
 
 

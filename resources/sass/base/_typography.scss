@@ -6,6 +6,8 @@ html { font-family: 'Inter', sans-serif; }
   html { font-family: 'Inter var', sans-serif; }
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@400;600;700&display=swap');
+
 @mixin first_paragraph {
   @apply border-b border-gray-200 text-2xl pb-10 mb-10 font-light leading-snug text-gray-600;
 }
@@ -15,8 +17,19 @@ h1, h2, h3, h4, h5 {
     @apply font-bold leading-tight mt-0 mb-6 text-purple-900;
 }
 
+h1, h2 {
+  font-family: 'Zilla Slab', serif;
+}
+
+header {
+  font-family: 'Zilla Slab', serif;
+  nav{
+    font-family: 'Inter', sans-serif;
+  }
+}
+
 h3, h4, h5 {
-  @apply mb-1;
+  @apply mb-8;
 }
 
 h2 {

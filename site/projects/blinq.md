@@ -19,6 +19,7 @@ As the lead designer on BLINQ.com, I was responsible a variety of projects to im
 ## Homepage Redesign
 
 **Problems to solve**  
+  
 * The existing BLINQ homepage featured a hero banner and a series of carousels with merchandise organized by category. There was nothing to differentiate BLINQ or to explain why merchandise prices were so low.
 * The existing BLINQ homepage had very little space for promotions, seasonal items, or other time-sensitive content; this meant customers had little reason to come back and the BLINQ marketing team was hamstrung in their efforts to highlight seasonal and timely products.
 * The current homepage does not work for mobile visitors.
@@ -26,6 +27,7 @@ As the lead designer on BLINQ.com, I was responsible a variety of projects to im
 I worked closely with a product manager to wireframe various homepage layouts that could address the growing needs of both BLINQ customers and the internal BLINQ team.
 
 **Responsive Homepage**  
+
 I designed the BLINQ homepage mobile-first to ensure that the ~45% of mobile visitors had a first-class experience.
   <figure class="p-6 rounded-lg mt-10 mb-8 md:mt-8 shadow">
     <a href="/images/projects/blinq-homepage-mobile.png">
@@ -35,6 +37,7 @@ I designed the BLINQ homepage mobile-first to ensure that the ~45% of mobile vis
 </figure>
 
 **Homepage Features**  
+
 This wireframe shows how proposed homepage elements meet customer and business needs.
 <figure class="p-6 rounded-lg mt-10 mb-8 md:mt-8 shadow">
   <a href="/images/projects/blinq_homepage_features.png">
@@ -44,6 +47,7 @@ This wireframe shows how proposed homepage elements meet customer and business n
 </figure>
 
 **Brand DNA**  
+
 This wireframe shows how proposed homepage elements follow through on BLINQ's brand strategy.
 <figure class="p-6 rounded-lg mt-10 mb-8 md:mt-8 shadow">
   <a href="/images/projects/blinq_homepage_branding.png">
@@ -52,7 +56,7 @@ This wireframe shows how proposed homepage elements follow through on BLINQ's br
   </a>
 </figure>
 
-### Results
+**Results**
 
 * The revised homepage layout was completed and deployed as part of a larger rebrand and redesign project lead by an external brand agency.
 * Qualitatively, the site performed well in both focus groups and think-aloud usability tests; the new layout performed especially well at (1) helping users understand why BLINQ was so inexpensive and (2) helping users find curated inventory, e.g.: white elephant gifts for an office holiday party.
@@ -62,6 +66,7 @@ This wireframe shows how proposed homepage elements follow through on BLINQ's br
 ## Checkout for Mobile
 
 **Problems to solve**
+
 * At the time of this work, blinq.com had some pages with a responsive layout and some that did not. The homepage and checkout pages were not responsive. Because most site traffic was referred through google product listings, the impact of a non-responsive homepage was low. All customers making a purchase on a mobile device had to suffer through a non-responsive checkout flow.
 * The biggest concern to address was the usability testing feedback that described the jarring shift from responsive product pages to a non-responsive checkout flow as "being taken to another website to ask for my money".
 * We expected that moving checkout to a responsive layout would decrease cart abandonment during the checkout flow.
@@ -80,6 +85,7 @@ Although many teams approach checkout redesign projects conservatively, we took 
 ### Primary Navigation Improvements
 
 **Goals**
+
 * Update BLINQ.com's primary navigation to show categories relevant to users. BLINQ has a category taxonomy with thousands of nodes, so choosing the right ones for the main menu is non-trivial.
 * Reconsider the layout of blinq's category menu to allow for more dynamic content; promotions, seasonal offerings, featured products, and other content could help customers find items they care about faster and with less effort.
 
@@ -100,4 +106,5 @@ Working with a product manager, a developer, and a third-party provider (our nav
 </figure>
 
 **Results**
+
 Our enhanced navigation improved click-through rates on the new set of categories shown in the menu while also creating room for promotional space to list featured products.
