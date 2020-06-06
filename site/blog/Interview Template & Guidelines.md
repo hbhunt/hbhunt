@@ -1,8 +1,8 @@
 ---
-title: Interview Template & Guidelines
-date: 2018-09-30
+title: How to Structure Interview Sessions
+date: 2020-06-06
 
-excerpt: This is an excerpt
+excerpt: Stages of design research + outline for interview sessions.
 tags:
     - blog
     - research

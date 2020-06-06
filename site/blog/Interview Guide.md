@@ -1,8 +1,8 @@
 ---
 title: Interview Guide
-date: 2018-09-30
+date: 2020-06-06
 
-excerpt: This is an excerpt
+excerpt: Guiding principles and sample outline for a 1:1 interview.
 tags:
     - blog
     - research

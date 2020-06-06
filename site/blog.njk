@@ -16,7 +16,7 @@ title: Resources
 
             {% for post in collections.blog %}
 
-                <article class="article-card mb-8 mx-4 flex-1 bg-white overflow-hidden rounded-lg shadow-lg">
+                <article class="article-card mb-8 mx-4 flex-1 bg-white overflow-hidden rounded-lg shadow-lg items-stretch">
 
                     {# featured post image & category #}
                     {% if post.data.featured_image %}
@@ -56,19 +56,13 @@ title: Resources
 
                     {% endif %}
 
-                    <div class="p-8">
+                    <div class="p-8 h-full flex flex-col justify-between">
 
                         <h3 class="text-2xl mb-6"><a class="block text-purple-900 hover:text-pink-500" href="{{ post.url }}">{{ post.data.title }}</a></h3>
 
-                        <div class="text-sm text-gray-600 md:flex mb-4">
+                        <div class="text-base text-gray-600 md:flex mb-4">
 
-                            {# <p class="author">By {{ site.author.name }}</p> #}
-
-                            {# <p class="hidden md:block px-2">—</p> #}
-
-                            {# <time datetime="{{ post.date }}">
-                                {{ post.date | dateDisplay }}
-                            </time> #}
+                            <p class="">{{ post.data.excerpt }}</p>
 
                         </div>
 

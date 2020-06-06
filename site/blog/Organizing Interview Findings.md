@@ -1,8 +1,8 @@
 ---
 title: Organizing Interview Findings
-date: 2018-09-30
+date: 2020-06-06
 
-excerpt: This is an excerpt
+excerpt: Detailed discussion of organizing and synthesizing research findings.
 tags:
     - blog
     - research
