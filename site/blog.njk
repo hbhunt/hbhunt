@@ -10,7 +10,7 @@ title: Resources
 
     <section id="container-centre" class="column centre flex-1" aria-label="Blogs">
 
-        <h1 class="page-title text-xl font-black md:text-center md:2text-xl lg:mb-24 lg:text-4xl">{{ title }}</h1>
+        <h1 class="page-title text-xl font-extrabold md:text-center md:text-2xl lg:mb-24 lg:text-6xl lg:tracking-tight">{{ title }}</h1>
 
         <div class="posts lg:flex flex-1">
 
@@ -62,13 +62,13 @@ title: Resources
 
                         <div class="text-sm text-gray-600 md:flex mb-4">
 
-                            <p class="author">By {{ site.author.name }}</p>
+                            {# <p class="author">By {{ site.author.name }}</p> #}
 
-                            <p class="hidden md:block px-2">—</p>
+                            {# <p class="hidden md:block px-2">—</p> #}
 
-                            <time datetime="{{ post.date }}">
+                            {# <time datetime="{{ post.date }}">
                                 {{ post.date | dateDisplay }}
-                            </time>
+                            </time> #}
 
                         </div>
 
