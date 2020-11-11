@@ -1,13 +1,15 @@
 const htmlmin = require("html-minifier")
 const sortByDisplayOrder = require('./site/utils/sort-by-display-order.js')
 
+// Filters
+const dateFilter = require('./site/filters/date-filter.js');
+const w3DateFilter = require('./site/filters/w3-date-filter.js');
+
 module.exports = eleventyConfig => {
 
-    // Add a readable date formatter filter to Nunjucks
-    eleventyConfig.addFilter("dateDisplay", require("./filters/dates.js"))
-
-    // Add a HTML timestamp formatter filter to Nunjucks
-    eleventyConfig.addFilter("htmlDateDisplay", require("./filters/timestamp.js"))
+    // Add filters
+    eleventyConfig.addFilter('dateFilter', dateFilter);
+    eleventyConfig.addFilter('w3DateFilter', w3DateFilter);
 
     // Minify our HTML
     eleventyConfig.addTransform("htmlmin", (content, outputPath) => {
@@ -24,7 +26,7 @@ module.exports = eleventyConfig => {
     })
 
     // Collections
-    
+
     // Returns projects, sorted by display order
     eleventyConfig.addCollection('work', collection => {
         return sortByDisplayOrder(collection.getFilteredByGlob('./site/work/*.md'));
