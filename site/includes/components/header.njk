@@ -1,6 +1,21 @@
-<header id="header" class="header bg-purple-900 flex flex-col md:flex-row md:justify-between items-center p-4 md:p-6">
-
-	{% include "components/logo.njk" %}
-	{% include 'components/nav.njk' %}
-
+<a class="[ skip-link ] [ button ]" href="#main-content">Skip to content</a>
+<header role="banner" class="site-head">
+  <div class="wrapper">
+    <div class="site-head__inner">
+      <a href="/" aria-label="{{ site.name }} - home" class="site-head__brand">
+        {% include "components/brand.svg" %}
+      </a>
+      <nav class="[ nav ] [ site-head__nav ] [ font-sans ]" aria-label="Primary">
+        <ul class="nav__list">
+          {% for item in navigation.main %}
+          <li>
+            <a href="{{ item.url }}" {{ helpers.getLinkActiveState(item.url, page.url) | safe }}
+              >{{ item.label }}</a
+            >
+          </li>
+          {% endfor %}
+        </ul>
+      </nav>
+    </div>
+  </div>
 </header>

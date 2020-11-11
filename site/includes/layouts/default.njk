@@ -41,18 +41,11 @@
 
     <a class="sr-only" href="#main">Skip to content</a>
 
-    <div id="wrapper" class="wrapper pb-16 md:pb-0 flex flex-col relative min-h-screen">
+    {% include "components/header.njk" %}
 
-        {# include header #}
-        {% include "components/header.njk" %}
-
-        {# include content #}
-        {{ content | safe }}
-
-        {# include footer #}
-        {% include "components/footer.njk" %}
-
-    </div>
+    <main tabindex="-1" id="main-content">
+      {% block content %}{% endblock %}
+    </main>
 
     {# include mobile nav #}
     {% include "components/mobile-nav.njk" %}

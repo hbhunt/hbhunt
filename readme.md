@@ -46,11 +46,3 @@ Type the `npm run production` command to minify scripts, styles and run Purgecss
 Purge will cross reference your templates/HTML with all those Tailwind classes and will remove any classes you haven't used - pretty cool huh?
 
 Skeleventy will now reference `main.min.css` as the new stylesheet (annoyingly, Mix also minifies `main.css` as well - this bugs the hell out of me!).
-
-## Recommendations
-
-Once you've had a tinker with Skeleventy and made something Awwwards worthy, jump over to [Netlify](https://www.netlify.com) and host your beautiful creation for free.
-
-You can set up continuous deployment which will watch your repo and deploy when you've pushed new changes to it - Netlify will take care of all the heavy lifting for you.
-
-Behold the true magic of a modern JAMstack workflow! :)

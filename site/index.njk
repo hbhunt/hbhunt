@@ -1,11 +1,17 @@
 ---
-layout: default
-meta_title: Home
-meta_description: Home
-body_class: home
-title: Welcome
+primaryCTA:
+  title: 'This is an agency that doesn’t actually exist'
+  summary: 'This is the project site you build when you take the “Learn
+    Eleventy From Scratch” course so it is all made up as a pretend
+    context. You will learn a lot about Eleventy by building this site
+    though. Take the course today!'
+  buttonText: 'Buy a copy'
+  buttonUrl: 'https://piccalil.li/course/learn-eleventy-from-scratch/'
 ---
 
+{% extends "layouts/default.njk" %} 
+
+{% block content %}
 <main id="main" class="main inner flex flex-1 flex-col py-10 lg:py-20 focus:outline-none" tabindex="-1">
 
   <article id="container-centre" class="column centre flex-1">
@@ -24,4 +30,11 @@ title: Welcome
 
   </article>
 
+  {% set ctaContent = primaryCTA %} 
+  {% include "components/cta.njk" %} 
+
+  {% set ctaContent = cta %} 
+  {% include "components/cta.njk" %}
+
 </main>
+{% endblock %}
