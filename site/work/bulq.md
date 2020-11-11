@@ -1,5 +1,7 @@
 ---
 title: BULQ.com Wholesale eCommerce
+displayOrder: 1
+featured: true
 date: 2020-05-25
 featured_image: /images/projects/bulq-mbp-com.png
 image_caption: BULQ.com browse inventory page
@@ -7,6 +9,40 @@ excerpt: Wholesale purchasing for resellers. 2015–2016
 tags:
     - project
     - ux
+
+summary: 'A travel journal that transports you to some of the most
+beautiful places on earth.'
+hero:
+  image: '/images/projects/bulq-mbp-com.png'
+  imageAlt: 'User research summary + findings'
+keyFacts:
+  - primary: '50%'
+    secondary: 'Increase in engagement'
+  - primary: '10%'
+    secondary: 'Increase in sales'
+  - primary: '£1,000,000'
+    secondary: 'In extra revenue'
+  - primary: '750 hours'
+    secondary: 'In saved productivity'
+  - primary: '4'
+    secondary: 'International awards'
+  - primary: '£28,000'
+    secondary: 'Saved in digital advertising'
+gallery:
+  - title: 'Creative layouts'
+    summary: 'We made sure the content sang with some creative layout
+    and typography work, while making sure the content was easy to
+    read.'
+    image: '/images/projects/bulq-cases-wireframes.png'
+  - title: 'Keeping it clear'
+    summary: 'We wanted to make sure the content was as clear as it
+    could be, regardless of what it was.'
+    image: '/images/work/behind-the-scenes-gallery-3.jpg'
+  - title: 'Beautiful photography'
+    summary: 'We made the the stunning photography sit center stage
+    because let’s be honest: that’s what you all came for.'
+    image: '/images/work/behind-the-scenes-gallery-3.jpg'
+team: [1, 4, 6]
 ---
 
 BULQ has supplied <span class="font-extrabold">thousands</span> of resellers with <span class="font-extrabold">millions</span> of dollars worth of inventory to power their businesses.

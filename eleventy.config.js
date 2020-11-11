@@ -1,4 +1,5 @@
 const htmlmin = require("html-minifier")
+const sortByDisplayOrder = require('./site/utils/sort-by-display-order.js')
 
 module.exports = eleventyConfig => {
 
@@ -40,12 +41,15 @@ module.exports = eleventyConfig => {
         return blogs.reverse()
 
     })
-    eleventyConfig.addCollection('project', collection => {
-
-        const project = collection.getFilteredByTag('project')
-        return project.reverse()
-
+    // Returns projects, sorted by display order
+    eleventyConfig.addCollection('work', collection => {
+        return sortByDisplayOrder(collection.getFilteredByGlob('./site/work/*.md'));
     })
+
+    eleventyConfig.addCollection('featuredWork', collection => {
+        return sortByDisplayOrder(collection.getFilteredByGlob('./site/work/*.md')).filter(
+            x => x.data.featured);
+      });
 
     // Layout aliases
     eleventyConfig.addLayoutAlias('default', 'layouts/default.njk')

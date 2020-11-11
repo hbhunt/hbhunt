@@ -1,5 +1,7 @@
 ---
 title: BLINQ.com eCommerce
+displayOrder: 3
+featured: false
 date: 2020-05-24
 featured_image: /images/projects/MBP-BLINQ.png
 image_caption: BLINQ.com product details page

@@ -1,5 +1,7 @@
 ---
 title: BULQ.com for iOS
+displayOrder: 2
+featured: true
 date: 2020-05-26
 featured_image: /images/projects/bulq_ios_three_up.png
 image_caption: BULQ.com [TBD]
