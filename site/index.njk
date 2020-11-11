@@ -11,6 +11,9 @@ primaryCTA:
 featuredWork:
   title: 'Selected work'
   summary: 'Some stuff that should give you an idea of what we’re all about.'
+
+studioFeed:
+  title: 'Fron inside the studio'
 ---
 
 {% extends "layouts/default.njk" %} 
@@ -38,6 +41,8 @@ featuredWork:
   {% include "components/cta.njk" %} 
 
   {% include "components/featured-work.njk" %}
+
+  {% include "components/studio-feed.njk" %}}
 
   {% set ctaContent = cta %} 
   {% include "components/cta.njk" %}
