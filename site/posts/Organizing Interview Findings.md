@@ -4,7 +4,6 @@ date: 2020-06-06
 
 excerpt: Detailed discussion of organizing and synthesizing research findings.
 tags:
-    - blog
     - research
 ---
 
