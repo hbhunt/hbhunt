@@ -42,6 +42,13 @@ module.exports = eleventyConfig => {
         return [...collection.getFilteredByGlob('./site/posts/*.md')].reverse();
     });
 
+    // Returns a list of people ordered by filename
+    eleventyConfig.addCollection('people', collection => {
+        return collection.getFilteredByGlob('./site/people/*.md').sort((a, b) => {
+        return Number(a.fileSlug) > Number(b.fileSlug) ? 1 : -1;
+        });
+    });
+
     // Layout aliases
     eleventyConfig.addLayoutAlias('default', 'layouts/default.njk')
     eleventyConfig.addLayoutAlias('post', 'layouts/post.njk')

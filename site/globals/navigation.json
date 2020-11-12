@@ -11,6 +11,10 @@
         {
             "label": "Resources",
             "url": "/blog/"
+        },
+        {
+            "label": "About Us",
+            "url": "/about-us/"
         }
     ]
 }
