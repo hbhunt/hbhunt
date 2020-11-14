@@ -9,6 +9,8 @@ excerpt: Mobile wholesale purchasing for resellers. 2015–2016
 tags:
     - project
     - ux
+
+team: [1, 4, 6]
 ---
 
 In six months, <span class="font-extrabold">five thousand</span> users downloaded the BULQ app and have purchased <span class="font-extrabold">$300,000+</span> in inventory for their businesses.

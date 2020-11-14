@@ -1,5 +1,6 @@
 const htmlmin = require("html-minifier")
 const sortByDisplayOrder = require('./site/utils/sort-by-display-order.js')
+const rssPlugin = require('@11ty/eleventy-plugin-rss');
 
 // Filters
 const dateFilter = require('./site/filters/date-filter.js');
@@ -7,9 +8,13 @@ const w3DateFilter = require('./site/filters/w3-date-filter.js');
 
 module.exports = eleventyConfig => {
 
+    // Add plutins
+    eleventyConfig.addPlugin(rssPlugin);
+
     // Add filters
     eleventyConfig.addFilter('dateFilter', dateFilter);
     eleventyConfig.addFilter('w3DateFilter', w3DateFilter);
+
 
     // Minify our HTML
     eleventyConfig.addTransform("htmlmin", (content, outputPath) => {

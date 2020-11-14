@@ -10,6 +10,8 @@ tags:
     - project
     - branding
     - ux
+
+team: [1, 4, 6]
 ---
 
 BLINQ lets shoppers save big on excess and returned inventory.
