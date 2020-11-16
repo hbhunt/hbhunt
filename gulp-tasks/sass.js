@@ -24,7 +24,7 @@ const calculateOutput = ({history}) => {
   // to the _includes directory, so nunjucks can include it
   // directly in a <style>
   if (criticalStyles.includes(sourceFileName)) {
-    response = './src/_includes/css';
+    response = './site/includes/css';
   }
 
   return response;
@@ -34,7 +34,7 @@ const calculateOutput = ({history}) => {
 // processes them, then sends them to the output calculator
 const sass = () => {
 
-    return src('./src/scss/*.scss')
+    return src('./site/scss/*.scss')
       .pipe(sassProcessor().on('error', sassProcessor.logError))
       .pipe(
         cleanCSS(

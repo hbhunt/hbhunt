@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     {% include "components/meta-info.njk" %}
     <link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml" />
+    
     <style>{% include "css/critical.css" %}</style>
-
     {# Add facility for pages to delare an array of critical styles #}
     {% if pageCriticalStyles %}
     {% for item in pageCriticalStyles %}
