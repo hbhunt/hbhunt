@@ -39,6 +39,10 @@ Uncompiled SCSS and JS reside in the `resources` folder - as mentioned above, Mi
 
 In development mode, Skeleventy will reference `main.css` for it's stylesheet. This will be pretty chunky in filesize (around 800KB!), due to the amount of Tailwind utility classes - but don't worry, Skeleventy has you covered!
 
+## During Development
+
+Run `npm run dev` to build and launch the server.
+
 ## Ready to deploy?
 
 Type the `npm run production` command to minify scripts, styles and run Purgecss.
