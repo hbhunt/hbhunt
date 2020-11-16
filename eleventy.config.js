@@ -64,6 +64,9 @@ module.exports = eleventyConfig => {
     eleventyConfig.addPassthroughCopy("images")
     eleventyConfig.addPassthroughCopy("robots.txt")
 
+    // Tell 11ty to use the .eleventyignore and ignore our .gitignore file
+    eleventyConfig.setUseGitIgnore(false);
+
     return {
         templateFormats: ["md", "njk"],
         markdownTemplateEngine: 'njk',
