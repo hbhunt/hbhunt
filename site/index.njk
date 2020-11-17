@@ -9,6 +9,15 @@ primaryCTA:
   buttonText: 'Buy a copy'
   buttonUrl: 'https://piccalil.li/course/learn-eleventy-from-scratch/'
 
+intro:
+  eyebrow: 'Digital Marketing is our'
+  main: 'Bread & Butter'
+  summary: 'Let us help you create the perfect campaign with our multi-faceted team of talented creatives.'
+  buttonText: 'See our work'
+  buttonUrl: '/work'
+  image: '/images/bg/toast.jpg'
+  imageAlt: 'Buttered toasted white bread'
+
 featuredWork:
   title: 'Selected work'
   summary: 'Some stuff that should give you an idea of what we’re all about.'
@@ -20,6 +29,7 @@ metaDesc: 'A made up agency site that you build if you take Learn Eleventy From 
 ---
 
 {% extends "layouts/default.njk" %} 
+{% set pageCriticalStyles = ['css/home.css'] %}
 
 {% block content %}
   <article id="" class="[ wrapper ]">
@@ -37,6 +47,28 @@ metaDesc: 'A made up agency site that you build if you take Learn Eleventy From 
     </div>
 
   </article>
+
+  <div class="wrapper">
+  <article class="intro">
+    <div class="[ intro__header ] [ radius frame ]">
+      <h1 class="[ intro__heading ] [ weight-normal text-400 md:text-600 ]">
+        {{ intro.eyebrow }}
+        <em class="text-800 md:text-900 lg:text-major weight-bold">{{ intro.main }}</em>
+      </h1>
+    </div>
+    <div class="[ intro__content ] [ flow ]">
+      <p class="intro__summary">{{ intro.summary }}</p>
+      <a href="{{ intro.buttonUrl }}" class="button">{{ intro.buttonText }}</a>
+    </div>
+    <div class="[ intro__media ] [ radius dot-shadow ]">
+      <img
+        class="[ intro__image ] [ radius ]"
+        src="{{ intro.image }}"
+        alt="{{ intro.imageAlt }}"
+      />
+    </div>
+  </article>
+</div>
 
   {% set ctaContent = primaryCTA %} 
   {% include "components/cta.njk" %} 
