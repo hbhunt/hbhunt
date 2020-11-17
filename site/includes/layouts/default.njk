@@ -27,17 +27,20 @@
 </head>
 
 <body {% if body_class %} id="{{ body_class }}"{% endif %} class="text-purple-900 leading-normal text-lg">
+<div class="site-wrap">
 
-    <a class="sr-only" href="#main">Skip to content</a>
-
-    {% include "components/header.njk" %}
+    {% include "components/site-head.html" %}
 
     <main tabindex="-1" id="main-content">
       {% block content %}{% endblock %}
     </main>
 
-    {# include mobile nav #}
-    {% include "components/mobile-nav.njk" %}
+    <footer role="contentinfo" class="site-foot">
+    <div class="wrapper">
+      <p>This is a made up agency for the course, <a href="https://piccalil.li/course/learn-eleventy-from-scratch/">“Learn Eleventy From Scratch”</a>.</p>
+    </div>
+  </footer>
 
+</div>
 </body>
 </html>

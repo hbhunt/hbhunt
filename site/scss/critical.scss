@@ -83,3 +83,7 @@ h4 {
     background-color: get-color('dark');
     border-radius: 0.25rem;
 }
+
+@import 'blocks/site-foot';
+@import 'blocks/site-head';
+@import 'blocks/nav';

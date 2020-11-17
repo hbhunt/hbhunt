@@ -22,9 +22,7 @@ metaDesc: 'A made up agency site that you build if you take Learn Eleventy From 
 {% extends "layouts/default.njk" %} 
 
 {% block content %}
-<main id="main" class="main inner flex flex-1 flex-col py-10 lg:py-20 focus:outline-none" tabindex="-1">
-
-  <article id="container-centre" class="column centre flex-1">
+  <article id="" class="[ wrapper ]">
 
     <header>
       <h1 class="page-title tracking-tight">{{ title }}</h1>
@@ -50,5 +48,4 @@ metaDesc: 'A made up agency site that you build if you take Learn Eleventy From 
   {% set ctaContent = cta %} 
   {% include "components/cta.njk" %}
 
-</main>
 {% endblock %}

@@ -1,23 +1,23 @@
 {
-    "main": [
+    "items": [
         {
-            "label": "Home",
+            "text": "Home",
             "url": "/"
         },
         {
-            "label": "Projects",
+            "text": "Projects",
             "url": "/projects/"
         },
         {
-            "label": "Resources",
+            "text": "Resources",
             "url": "/blog/"
         },
         {
-            "label": "About Us",
+            "text": "About Us",
             "url": "/about-us/"
         },
         {
-            "label": "Work",
+            "text": "Work",
             "url": "/work/"
         }
     ]
