@@ -14,6 +14,9 @@
 @import 'blocks/nav';
 @import 'blocks/button';
 @import 'blocks/skip-link';
+@import 'blocks/cta';
+@import 'blocks/featured-work';
+@import 'blocks/studio-feed';
 
 // Import utilities
 @import 'utilities/dot-shadow';
@@ -24,6 +27,7 @@
 @import 'utilities/site-wrap';
 @import 'utilities/visually-hidden';
 @import 'utilities/wrapper';
+@import 'utilities/headline';
 
 
 // Global styles start
