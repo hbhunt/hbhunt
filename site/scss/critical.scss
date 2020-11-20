@@ -19,6 +19,8 @@
 @import 'blocks/studio-feed';
 @import 'blocks/page-header';
 @import 'blocks/page-content';
+@import 'blocks/people';
+@import 'blocks/person';
 
 // Import utilities
 @import 'utilities/dot-shadow';
@@ -30,6 +32,7 @@
 @import 'utilities/visually-hidden';
 @import 'utilities/wrapper';
 @import 'utilities/headline';
+@import 'utilities/auto-grid';
 
 
 // Global styles start
