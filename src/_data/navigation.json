@@ -1,16 +1,16 @@
 {
-    "items": [
-      {
-        "text": "Home",
-        "url": "/"
-      },
-      {
-        "text": "Work",
-        "url": "/work/"
-      },
-      {
-        "text": "Writing",
-        "url": "/writing/"
-      }
+    "main": [
+        {
+            "label": "Home",
+            "url": "/"
+        },
+        {
+            "label": "Projects",
+            "url": "/projects/"
+        },
+        {
+            "label": "Writing",
+            "url": "/blog/"
+        }
     ]
 }

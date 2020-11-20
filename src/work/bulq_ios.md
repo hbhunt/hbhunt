@@ -1,9 +1,13 @@
 ---
-title: BULQ.com for iOS
+title: BULQ.com for iOS 
 date: 2020-05-26
-featured_image: /images/projects/bulq_ios_three_up.png
+displayOrder: 3
+featured: true
+hero:
+  image: /images/projects/bulq_ios_three_up.png
+  imageAlt: "image alt text" 
 image_caption: BULQ.com [TBD]
-excerpt: Mobile wholesale purchasing for resellers. 2015–2016
+summary: Mobile wholesale purchasing for resellers. 2015–2016
 tags:
     - project
     - ux

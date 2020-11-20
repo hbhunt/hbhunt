@@ -1,9 +1,11 @@
 ---
 title: BLINQ.com eCommerce
 date: 2020-05-24
+displayOrder: 1
+featured: false
 featured_image: /images/projects/MBP-BLINQ.png
 image_caption: BLINQ.com product details page
-excerpt: Wholesale purchasing for consumers. 2014-2016
+summary: Wholesale purchasing for consumers. 2014-2016
 tags:
     - project
     - branding
