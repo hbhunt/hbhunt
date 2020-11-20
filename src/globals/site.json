@@ -1,18 +1,17 @@
 {
     "name": "Brad Hunt – UX Design",
-    "url": "https://skeleventy.netlify.com",
+    "url": "https://bradhunt.com",
     "author": {
         "name": "Brad Hunt",
         "email": "hbhunt@gmail.com",
-        "handle": "@hbhunt",
-        "avatar": "/images/blog/author.jpg"
+        "handle": "@hbhunt"
     },
-    "images": {
-        "logo": "/images/logo/logo.svg",
-        "favicon": "/images/favicon.ico",
-        "twitter": "/images/meta/twitter.jpg",
-        "og": "/images/meta/og.jpg"
-    },
+    // "images": {
+    //     "logo": "/images/logo/logo.svg",
+    //     "favicon": "/images/favicon.ico",
+    //     "twitter": "/images/meta/twitter.jpg",
+    //     "og": "/images/meta/og.jpg"
+    // },
     "social_links": {
         "linkedin": "https://www.linkedin.com/in/hbhunt/"
     },
