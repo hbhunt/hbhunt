@@ -6,6 +6,12 @@ const rssPlugin = require('@11ty/eleventy-plugin-rss');
 const dateFilter = require('./site/filters/date-filter.js');
 const w3DateFilter = require('./site/filters/w3-date-filter.js');
 
+// Transforms
+const htmlMinTransform = require('./site/transforms/html-min-transform.js');
+
+// Create a helpful production flag
+const isProduction = process.env.NODE_ENV === 'production';
+
 module.exports = eleventyConfig => {
 
     // Add plutins
@@ -61,7 +67,10 @@ module.exports = eleventyConfig => {
     // Include our static assets
     eleventyConfig.addPassthroughCopy("css")
     eleventyConfig.addPassthroughCopy("js")
-    eleventyConfig.addPassthroughCopy("images")
+    // Only minify HTML if we are in production because it slows builds _right_ down
+    if (isProduction) {
+        eleventyConfig.addTransform('htmlmin', htmlMinTransform);
+    }
     eleventyConfig.addPassthroughCopy("robots.txt")
 
     // Tell 11ty to use the .eleventyignore and ignore our .gitignore file

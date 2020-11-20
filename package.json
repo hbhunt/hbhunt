@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Brad Hunt's UX Design Portfolio",
   "scripts": {
-    "start": "npx gulp && concurrently \"npx gulp watch\" \"npx eleventy --serve --config=eleventy.config.js\"",
+    "start": "npx gulp && concurrently \"npx gulp watch\" \"npx eleventy --serve\"",
     "production": "NODE_ENV=production npx gulp && NODE_ENV=production npx eleventy"
   },
   "repository": {
