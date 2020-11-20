@@ -19,6 +19,10 @@
         {
             "text": "Work",
             "url": "/work/"
+        },
+        {
+            "text": "Contact Us",
+            "url": "/contact/"
         }
     ]
 }
