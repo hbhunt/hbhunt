@@ -2,9 +2,9 @@
   "name": "bradhunt.com",
   "version": "2.0.0",
   "description": "Brad Hunt's UX Design Portfolio",
+  "main": ".eleventy.js",
   "scripts": {
-    "dev": "ELEVENTY_ENV=development npx @11ty/eleventy  --serve & webpack --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
-    "production": "NODE_ENV=production webpack --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js && npx @11ty/eleventy --config=eleventy.config.js"
+    "start": "npx eleventy --serve"
   },
   "repository": {
     "type": "git",
