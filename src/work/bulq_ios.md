@@ -53,7 +53,7 @@ Knowing the problems we were trying to solve, I worked with tech and product tea
 
 **Prototype**  
 
-As ideation continued, I created a clickable prototype of first wireframes and later app comps. These prorotypes allowed us to try out ideas quickly and cheaply directly on iPhones.
+As ideation continued, I created a clickable prototype of first wireframes and later app comps. These prototypes allowed us to try out ideas quickly and cheaply directly on iPhones.
 
 <figure class="p-6 rounded-lg mt-10 mb-8 md:mt-8 shadow">
   <a href="/images/projects/bulq-ios-app-checkout-flows.png">
