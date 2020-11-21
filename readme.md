@@ -54,15 +54,20 @@ hero:
 
 **Summary**
 `summary: Mobile wholesale purchasing for resellers. 2015–2016`
-```
+Rendered in previews of this work study and prominently on the work study detail page.
 
-## Ready to deploy?
 
-Type the `npm run production` command to minify scripts, styles and run Purgecss.
 
-Purge will cross reference your templates/HTML with all those Tailwind classes and will remove any classes you haven't used - pretty cool huh?
+## URLs
 
-Skeleventy will now reference `main.min.css` as the new stylesheet (annoyingly, Mix also minifies `main.css` as well - this bugs the hell out of me!).
+* `/` the homepage
+* `/work/` a list of work studies 
+* `/writing/` a list of articles 
+* `/tags/` a list of tags associated with posts outside of work studies and articles (if any)
+
+## Ready to deploy? 
+
+Type the `npm run production` command to minify html. 
 
 ## Netlify
 
