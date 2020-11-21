@@ -17,6 +17,11 @@ module.exports = config => {
         );
     });
 
+    // Returns a collection of blog posts in reverse date order
+    config.addCollection('writing', collection => {
+        return [...collection.getFilteredByGlob('./src/writing/*.md')].reverse();
+    });
+
     return {
         markdownTemplateEngine: 'njk',
         dataTemplateEngine: 'njk',
