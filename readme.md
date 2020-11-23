@@ -33,21 +33,25 @@ The `_includes > layouts` and `_includes > partials` folders store `.njk` templa
 ## Work – Front Matter
 
 **Title**
+
 `title: BULQ.com iOS app`
 
 A string showing the page title. Used in the <head> and to display the projects on the `/work` page and elsewhere.
 
 **Display Order**
+
 `displayOrder: 1`
 
 Used to specify the order work samples appear on the `/work` page and elsewhere.
 
 **Featured on Homepage**
+
 `featured: true`
 
 Used to specify if this work sample is eligible to be included in the featured work widget on the homepage.
 
 **Hero Attributes**
+
 Used to specify the image and alt text when rendering this work sample.
 ```
 hero:
@@ -56,6 +60,7 @@ hero:
 ```
 
 **Summary**
+
 `summary: Mobile wholesale purchasing for resellers. 2015–2016`
 
 Rendered in previews of this work study and prominently on the work study detail page.
