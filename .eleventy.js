@@ -1,5 +1,9 @@
 const sortByDisplayOrder = require('./src/utils/sort-by-display-order.js');
 
+// Filters
+const dateFilter = require('./src/filters/date-filter.js');
+const w3DateFilter = require('./src/filters/w3-date-filter.js');
+
 module.exports = config => {
     
     // Set directories to pass through to the dist folder
@@ -21,6 +25,10 @@ module.exports = config => {
     config.addCollection('writing', collection => {
         return [...collection.getFilteredByGlob('./src/writing/*.md')].reverse();
     });
+
+    // Add filters
+    config.addFilter('dateFilter', dateFilter);
+    config.addFilter('w3DateFilter', w3DateFilter);
 
     return {
         markdownTemplateEngine: 'njk',
