@@ -1,4 +1,5 @@
 const sortByDisplayOrder = require('./src/utils/sort-by-display-order.js');
+const rssPlugin = require('@11ty/eleventy-plugin-rss');
 
 // Filters
 const dateFilter = require('./src/filters/date-filter.js');
@@ -25,6 +26,9 @@ module.exports = config => {
     config.addCollection('writing', collection => {
         return [...collection.getFilteredByGlob('./src/writing/*.md')].reverse();
     });
+
+    // Plugins
+    config.addPlugin(rssPlugin);
 
     // Add filters
     config.addFilter('dateFilter', dateFilter);
