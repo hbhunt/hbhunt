@@ -1,6 +1,6 @@
 ---
 title: 'Home'
-metaDesc: 'A made up agency site that you build if you take Learn Eleventy From Scratch, by Piccalilli'
+metaDesc: 'Brad Hunt, UX Leader'
 layout: 'layouts/home.njk'
 
 intro:
