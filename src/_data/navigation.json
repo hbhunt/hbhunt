@@ -1,15 +1,15 @@
 {
-    "main": [
+    "items": [
         {
-            "label": "Home",
+            "text": "Home",
             "url": "/"
         },
         {
-            "label": "Work",
+            "text": "Work",
             "url": "/work/"
         },
         {
-            "label": "Writing",
+            "text": "Writing",
             "url": "/writing/"
         }
     ]
