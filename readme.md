@@ -81,3 +81,10 @@ Type the `npm run production` command to minify html.
 ## Netlify
 
 (Add Content)
+
+## Resources
+
+* [Gorko](https://github.com/hankchizljaw/gorko) – SCSS utilities 
+* [CSS Reset](https://hankchizljaw.com/wrote/a-modern-css-reset/) – SCSS reset
+* [CUBE CSS](https://piccalil.li/cube-css/) – CSS organization 
+

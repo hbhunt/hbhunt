@@ -1,2 +1,11 @@
 @import 'reset';
 @import 'basic';
+
+@import 'config';
+@import '../../node_modules/gorko/gorko.scss';
+
+// import compositions
+@import 'compositions/sidebar.scss';
+
+//import blocks
+@import 'blocks/home.scss';
