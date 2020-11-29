@@ -8,6 +8,8 @@
 @import 'compositions/cluster.scss';
 @import 'compositions/center.scss';
 @import 'compositions/stack.scss';
+@import 'compositions/grid.scss';
+@import 'compositions/box.scss';
 
 body {
     background: get-color('light');
@@ -67,9 +69,11 @@ dl {
 
 // import utilities
 @import 'utilities/visually-hidden.scss';
+@import 'utilities/radius.scss';
 
 //import blocks
 @import 'blocks/home.scss';
 @import 'blocks/site-head.scss';
 @import 'blocks/nav.scss';
 @import 'blocks/skip-link';
+@import 'blocks/featured-work';

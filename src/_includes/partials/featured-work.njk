@@ -1,35 +1,40 @@
-<article class="[ featured-work ] [ bg-light-glare ]">
+<article class="[ featured-work ]">
   <div class="[ wrapper ] [ stack ]">
     <div class="[ featured-work__inner ] [ stack ]">
-      <div class="[ featured-work__intro ] [ stack stack-300 ]">
-        <h2
-          class="[ featured-work__heading ] [ headline ] [ color-quinary-shade lg:measure-micro ]"
+      <div class="[ featured-work__intro ]">
+        <h3
+          class="[ featured-work__heading ] [ headline ] [  ]"
           data-highlight="dark"
         >
           {{ featuredWork.title }}
-        </h2>
+        </h3>
         <p class="[ featured-work__summary ] [ measure-compact ]">
           {{ featuredWork.summary }}
         </p>
       </div>
-      {% for item in collections.featuredWork %}
-      <a
-        href="{{ item.url }}"
-        aria-label="See {{ item.data.title }}"
-        class="[ featured-work__item ] [ frame ]"
-        data-frame="quaternary"
-      >
-        <img
-          src="{{ item.data.hero.image }}"
-          alt="{{ item.data.hero.imageAlt }}"
-          loading="lazy"
-          class="radius"
-        />
-      </a>
+      <div class="grid">
+        {% for item in collections.featuredWork %}
+        <a
+          href="{{ item.url }}"
+          aria-label="See {{ item.data.title }}"
+          class="[ featured-work__item ] [ stack ]"
+          data-frame="quaternary"
+        >
+          <img
+            src="{{ item.data.hero.image }}"
+            alt="{{ item.data.hero.imageAlt }}"
+            loading="lazy"
+            class="radius"
+          />
+          <h4>{{ item.data.title }}</h4>
+          <p>{{ item.data.summary }}</p>
+          <p>{{ item.data.dateRange }}</p>
+        </a>
       {% endfor %}
+      </div>
     </div>
     <div class="[ featured-work__action ] [ flow-space-700 ]">
-      <a href="/work/" class="button">See more work</a>
+      <a href="/work/" class="button">See all case studies</a>
     </div>
   </div>
 </article>

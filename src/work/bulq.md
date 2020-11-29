@@ -7,7 +7,8 @@ hero:
   image: /images/projects/bulq-mbp-com.png
   imageAlt: "Picture of bulq"
 image_caption: BULQ.com browse inventory page
-summary: Wholesale purchasing for resellers. 2015–2016
+dateRagne: 2015-2016
+summary: Wholesale purchasing for resellers.
 tags:
     - project
     - ux

@@ -9,6 +9,5 @@ intro:
     summary: "I'm baby palo santo chicharrones direct trade bitters authentic bespoke thundercats gentrify beard. Authentic cold-pressed helvetica, vice air plant enamel pin art party tote bag ramps jean shorts. Artisan godard cronut four dollar toast shaman art party vape. Squid marfa cliche portland messenger bag letterpress blog celiac hexagon venmo copper mug aesthetic shoreditch mixtape. Kitsch flexitarian cray viral vinyl schlitz artisan hammock cred literally dreamcatcher. Vegan flexitarian wolf irony, chia cloud bread austin kickstarter pour-over la croix chicharrones umami."
 
 featuredWork:
-  title: 'Selected work'
-  summary: 'Case studies showing some ux magic'
+  title: 'See some examples of my work'
 ---

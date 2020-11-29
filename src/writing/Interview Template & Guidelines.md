@@ -4,7 +4,6 @@ date: 2020-06-06
 
 excerpt: Stages of design research + outline for interview sessions.
 tags:
-    - blog
     - research
 ---
 

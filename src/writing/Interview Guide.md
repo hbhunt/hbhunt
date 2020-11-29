@@ -4,7 +4,6 @@ date: 2020-06-06
 
 excerpt: Guiding principles and sample outline for a 1:1 interview.
 tags:
-    - blog
     - research
 ---
 

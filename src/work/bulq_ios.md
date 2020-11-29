@@ -7,7 +7,8 @@ hero:
   image: /images/projects/bulq_ios_three_up.png
   imageAlt: "image alt text" 
 image_caption: BULQ.com [TBD]
-summary: Mobile wholesale purchasing for resellers. 2015–2016
+dateRange: 2015–2016
+summary: Mobile wholesale purchasing for resellers. 
 tags:
     - project
     - ux

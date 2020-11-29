@@ -1,0 +1,11 @@
+.featured-work {
+
+    .featured-work__item {
+        text-decoration: none;
+        color: get-color("dark");
+    }
+
+    h4 {
+        font-size: get-size("500");
+    }
+}

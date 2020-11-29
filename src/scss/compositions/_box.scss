@@ -1,0 +1,15 @@
+.box {
+    padding: get-size("300");
+    border: 2px solid;
+    color: get-color("dark");
+    background-color: get-color("light");
+}
+  
+.box * {
+    color: inherit;
+}
+  
+.box.invert {
+    color: get-color("light");
+    background-color: get-color("dark");
+}
