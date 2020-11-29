@@ -1,5 +1,4 @@
 @import 'reset';
-@import 'basic';
 
 @import 'config';
 @import '../../node_modules/gorko/gorko.scss';
@@ -7,7 +6,24 @@
 // import compositions
 @import 'compositions/sidebar.scss';
 @import 'compositions/cluster.scss';
+@import 'compositions/center.scss';
 
 //import blocks
 @import 'blocks/home.scss';
 @import 'blocks/site-head.scss';
+
+body {
+    background: get-color('light');
+    color: get-color('dark-shade');
+    line-height: 1.5;
+    font-size: get-size('400');
+  
+    @include apply-utility('font', 'base');
+}
+
+/* More info: https://piccalil.li/quick-tip/limit-line-lengths-to-increase-readability/ */
+p,
+li,
+dl {
+max-width: 70ch;
+}
