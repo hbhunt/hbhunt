@@ -1,3 +1,14 @@
-.site-head__container > * {
-    justify-content: "space-between";
+.site-head__container{
+    margin-top: get-size('400');
+
+    a.title{ 
+        text-decoration: none;
+        font-weight: 900;
+        font-size: get-size('500');
+        color: get-color('primary');
+    }
+
+    & > * {
+        justify-content: "space-between";
+    }
 }
