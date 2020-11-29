@@ -1,11 +1,13 @@
 .site-head__container{
     margin-top: get-size('400');
+    margin-bottom: get-size('600');
+    border-bottom: 4px solid get-color('primary');
 
     a.title{ 
         text-decoration: none;
         font-weight: 900;
         font-size: get-size('500');
-        color: get-color('primary');
+        color: get-color('dark');
     }
 
     & > * {
