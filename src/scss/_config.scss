@@ -25,8 +25,27 @@ $gorko-size-scale: (
 /// You can also use them to power borders, fills or shadows, for example.
 ///
 $gorko-colors: (
-  'dark': #1a1a1a,
-  'light': #f3f3f3
+  'dark': #38445b,
+  'dark-shade': #263147,
+  'dark-glare': #505c73,
+  'light': #ffffff,
+  'light-shade': #fff6d7,
+  'light-glare': #fdfbf3,
+  'primary': #FE3F3F,
+  'primary-shade': #FE3F3F,
+  'primary-glare': #FE3F3F,
+  'secondary': #FEBE3E,
+  'secondary-shade': #FEBE3E,
+  'secondary-glare': #FEBE3E,
+  'tertiary': #FE3EBE,
+  'tertiary-shade': #FE3EBE,
+  'tertiary-glare': #FE3EBE,
+  'quaternary': #3EFEBE,
+  'quaternary-shade': #3EFEBE,
+  'quaternary-glare': #3EFEBE,
+  'quinary': #3EBEFE,
+  'quinary-shade': #3EBEFE,
+  'quinary-glare': #3EBEFE,
 );
 
 /// CORE CONFIG

@@ -1,6 +1,6 @@
 <a class="[ skip-link ] [ button ]" href="#main-content">Skip to content</a>
 <header role="banner">
-  <div class="[ cluster wrapper ] [ site-head__container ]">
+  <div class="[ cluster wrapper stack ] [ site-head__container ]">
     <div>
       <p>bradhunt.com</p>
       <nav class="[ nav cluster ] [ site-head__nav ]" aria-label="Primary">
@@ -8,7 +8,7 @@
               {% for item in navigation.items %}
               <li>
                   <a href="{{ item.url }}" {{ helpers.getLinkActiveState(item.url, page.url) | safe }}
-                  >{{ item.text }}</a
+                    >{{ item.text }}</a
                   >
               </li>
               {% endfor %}
