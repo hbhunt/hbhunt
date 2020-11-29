@@ -1,0 +1,22 @@
+.stack {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+.stack > * {
+    margin-top: 0;
+    margin-bottom: 0;
+} 
+  
+.stack > * + * {
+    margin-top: get-size('500');
+}
+
+.stack-300 > * + * {
+    margin-top: get-size('300');
+}
+
+.stack-800 > * + * {
+    margin-top: get-size('800');
+}

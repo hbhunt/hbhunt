@@ -66,7 +66,6 @@ hero:
 Rendered in previews of this work study and prominently on the work study detail page.
 
 
-
 ## URLs
 
 * `/` the homepage

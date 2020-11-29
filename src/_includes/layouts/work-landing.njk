@@ -7,11 +7,11 @@
   <article>
     {% include "partials/page-header.njk" %}
   </article>
-  <div class="[ panel dot-shadow ] [ bg-tertiary-glare ]">
+  <div class="[ panel ] [ bg-tertiary-glare ]">
     <div class="wrapper">
-      <article class="[ gallery ] [ flow flow-space-800 ]">
+      <article class="[ gallery ] [ stack stack-800 ]">
         {% for item in collections.work %}
-        <figure class="[ gallery__item ] [ flow ]">
+        <figure class="[ gallery__item ] [ stack ]">
           <div class="[ gallery__media ] [ frame ]" data-frame="primary">
             <img
               class="radius"
@@ -19,7 +19,7 @@
               alt="{{ item.data.hero.imageAlt }}"
             />
           </div>
-          <figcaption class="[ gallery__content ] [ flow ]">
+          <figcaption class="[ gallery__content ] [ stack ]">
             <h2 class="[ gallery__heading ] [ text-700 md:text-900 ]">
               {{ item.data.title }}
             </h2>
