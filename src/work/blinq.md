@@ -8,7 +8,7 @@ hero:
   image: /images/projects/MBP-BLINQ.png
   imageAlt: "BLINQ.com product details page" 
 image_caption: BLINQ.com product details page
-summary: Wholesale purchasing for consumers.
+summary: BLINQ lets shoppers save big on excess and returned inventory.
 dateRange: 2014-2016
 tags:
     - project
