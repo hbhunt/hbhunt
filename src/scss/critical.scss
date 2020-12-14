@@ -10,11 +10,12 @@
 @import 'compositions/stack.scss';
 @import 'compositions/grid.scss';
 @import 'compositions/box.scss';
+@import 'compositions/cover.scss';
 
 body {
     background: get-color('light');
     color: get-color('dark-shade');
-    line-height: 1.5;
+    line-height: 1.7;
     font-size: get-size('400');
   
     @include apply-utility('font', 'base');

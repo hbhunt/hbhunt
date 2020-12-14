@@ -1,5 +1,5 @@
 ---
-title: BULQ.com Wholesale eCommerce
+title: BULQ.com 
 date: 2020-05-25
 displayOrder: 2
 featured: true
