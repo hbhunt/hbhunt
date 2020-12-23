@@ -1,5 +1,6 @@
 ---
 title: BULQ.com 
+layout: 'layouts/bulq.njk'
 date: 2020-05-25
 displayOrder: 2
 featured: true
@@ -12,17 +13,13 @@ summary: Wholesale purchasing for resellers.
 tags:
     - project
     - ux
+goal_context:
+  Small business owners wanted a way to source returned and excess retail goods, and Optoro needed to liquidate these same goods. A sales team was offering inventory to medium and large buyers, but scaling this team to work with small buyers was cost-prohibitive. The design and product team was asked to create an ecommerce site where small business owners could directly purchase inventory.
+results:
+  During it's first year, BULQ.com sold millions of dollars worth of inventory to thousands of small buyers via bulq.com and the bulq mobile app. Since then, BULQ has served over 1.2 million customers and processed goods worth more than $500M retail.
 ---
 
 BULQ has supplied <span class="font-extrabold">thousands</span> of resellers with <span class="font-extrabold">millions</span> of dollars worth of inventory to power their businesses.
-
-### Goal & Context
-
-Small business owners wanted a way to source returned and excess retail goods, and Optoro needed to liquidate these same goods. A sales team was offering inventory to medium and large buyers, but scaling this team to work with small buyers was cost-prohibitive. The design and product team was asked to create an ecommerce site where small business owners could directly purchase inventory.
-
-### Results
-
-During it's first year, BULQ.com sold millions of dollars worth of inventory to thousands of small buyers via bulq.com and the bulq mobile app. Since then, BULQ has served over 1.2 million customers and processed goods worth more than $500M retail.
 
 ## UX Design Process
 

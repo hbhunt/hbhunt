@@ -18,3 +18,11 @@ $outputTokenCSS: false;
     }
 }
 
+.work.with-sidebar > * {
+    border-top: 2px solid get-color('primary');
+    margin-top: 2px;
+}
+
+.with-sidebar > * > * {
+    min-width: 375px;
+}

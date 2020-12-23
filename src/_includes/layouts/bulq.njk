@@ -1,0 +1,38 @@
+{% extends "layouts/base.njk" %} 
+{% set pageCriticalStyles = ['css/work-item.css'] %}
+{% block content %}
+
+<div class="cover">
+  <div><!-- header --></div>
+  <div class="with-sidebar">
+      <div class="wrapper"> <!-- intermediary wrapper -->
+        <div class="centered"><!-- sidebar -->
+          <h1 class="[ headline ] [ measure-compact ]" data-highlight="quinary">{{ title }}</h1>
+          <p class="measure-short">{{ summary }}</p>
+        </div>
+        <div><!-- non-sidebar -->
+          <img src="{{ hero.image }}" alt="{{ hero.imageAlt }}" class="hero__image" />
+        </div>
+      </div>
+    </div>
+  <div><!-- footer --></div>
+</div>
+
+{# Goal & Context #}
+<section class="[ work ] [ wrapper with-sidebar ]">
+  <div> <!-- intermediary wrapper -->
+    <div><!-- sidebar -->
+      <h3>Goal, Context, and Results</h3>
+    </div>
+    <div class="stack"><!-- non-sidebar -->
+      <p>{{ goal_context }}</p>
+      <p>{{ results }}</p>
+    </div>
+  </div>
+</section>
+
+
+
+{{ content | safe }}
+
+{% endblock %}
