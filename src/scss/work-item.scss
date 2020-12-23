@@ -7,7 +7,7 @@ $outputTokenCSS: false;
 // Next: pull in gorko for design tokens
 @import '../../node_modules/gorko/gorko.scss';
 
-.headline {
+.cover .headline {
     font-size: get-size('600');
     font-weight: 900;
 
@@ -17,3 +17,4 @@ $outputTokenCSS: false;
         max-width: 32ch;
     }
 }
+
