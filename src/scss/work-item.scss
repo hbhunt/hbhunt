@@ -25,4 +25,7 @@ $outputTokenCSS: false;
 
 .with-sidebar > * > * {
     min-width: 375px;
+    & + div {
+        font-weight: 300;
+    }
 }
